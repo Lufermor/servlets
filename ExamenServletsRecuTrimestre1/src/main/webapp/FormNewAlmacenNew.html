@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Formulario Nuevo Almacen new</title>
+<meta name='viewport'
+	content='width=device-width, initial-scale=1, shrink-to-fit=yes'>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	crossorigin="anonymous">
+</head>
+<body>
+	<form action="InsertNewAlmacenNew" method="POST">
+		<div class="p-4">
+			<h3>Insertar nuevo almacen new</h3>
+			<hr class="border-2 border-top p-0 border-secondary">
+		</div>
+		<div class="row px-4 mb-3">
+			<div class="col">
+				<label for="campoDos" class="form-label"><b>Nombre</b></label> <input
+					type="text" class="form-control" id="nombreAlmacen" name="nombreAlmacen"
+					placeholder="Almacen viejo 2" aria-label="NombreAlmacen">
+			</div>
+		</div>
+		<div class="row px-4 mb-5">
+			<div class="col">
+				<button type="submit" class="btn btn-primary btn-block mb-4">Guardar</button>
+				<!-- <button type="submit" class="btn btn-outline-secondary btn-block mb-4 text-dark">Cancelar</button> -->
+			</div>
+		</div>
+	</form>
+	<form action="ToHomePage" method="GET">
+		<label>Volver</label>
+		<button type="submit">Go</button>
+	</form>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/06194f4708.js"
+		crossorigin="anonymous"></script>
+</body>
+</html>
